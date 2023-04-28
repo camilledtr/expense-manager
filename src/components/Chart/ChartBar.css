@@ -23,6 +23,7 @@
 .chart-bar__fill {
     background-color: #5a1a95;
     width: 100%;
+    height: var(--fill);
     transition: all 0.3s ease-out;
 }
 
@@ -38,4 +39,26 @@
 
 .chart-bar__value {
     margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .chart-bar {
+        flex-direction: row-reverse;
+        padding: 0;
+    }
+
+    .chart-bar__label, .chart-bar__value {
+        margin: 0 1rem;
+        width: 3rem;
+    }
+
+    .chart-bar__inner {
+        height: 1.8rem;
+        width: 40vw;
+    }
+
+    .chart-bar__fill {
+        width: var(--fill);
+        height: 100%;
+    }
 }

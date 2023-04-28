@@ -9,3 +9,11 @@
     background-color: rgb(222, 228, 232);
     border-radius: 12px;
 }
+
+@media screen and (max-width: 900px) {
+    .chart {
+        flex-direction: column;
+        height: 50rem;
+        padding: 1rem 0;
+    }
+}
