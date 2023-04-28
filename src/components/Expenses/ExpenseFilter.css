@@ -1,0 +1,19 @@
+.expenses-filter {
+    width: 95%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expenses-filter * {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.expenses-filter__dropdown {
+    width: 10rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 8px;
+}

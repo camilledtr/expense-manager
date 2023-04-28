@@ -1,0 +1,18 @@
+.button {
+    font: inherit;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: rgb(90, 26, 149);
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+
+  .button:hover,
+  .nbutton:active {
+    background-color: #4b1d61;
+    border-color: #4b1d61;
+  }

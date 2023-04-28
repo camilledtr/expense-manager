@@ -15,7 +15,8 @@ body {
   color: #fff;
 }
 
-.app-title {
-  margin-left: 2rem;
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-
